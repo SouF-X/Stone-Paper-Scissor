@@ -1,11 +1,9 @@
-# Visual Studio / C++ build output
+# Visual Studio / C++ user files and caches
 .vs/
-Debug/
-Release/
-x64/
-x86/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 *.VC.db
 *.VC.VC.opendb
 *.opensdf
@@ -15,12 +13,22 @@ x86/
 *.ncb
 *.opendb
 
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+.vscode/
+
 # Compiled binaries and debug files
 *.exe
 *.dll
 *.pdb
 *.ilk
 *.obj
+*.idb
 *.lib
 *.exp
 *.log
@@ -28,7 +36,8 @@ x86/
 *.lastbuildstate
 *.recipe
 
-# Archives
+# Archives / temporary files
 *.zip
-*.rar
 *.7z
+*.rar
+*.tmp
